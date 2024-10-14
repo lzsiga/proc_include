@@ -3,6 +3,8 @@
 #ifndef SYS_TIMEB_H
 #define SYS_TIMEB_H
 
+#include <time.h>
+
 struct timeb {
     time_t          time;           /* Seconds */
     unsigned short  millitm;        /* milliseconds */
