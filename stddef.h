@@ -3,7 +3,9 @@
 #ifndef STDDEF_H
 #define STDDEF_H
 
-typedef long	     ssize_t;
+/* Not for actual usage, use only with precompilers like Pro*C */
+
+typedef long          ssize_t;
 typedef unsigned long size_t;
 
 typedef long int ptrdiff_t;
