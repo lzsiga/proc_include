@@ -1,6 +1,6 @@
 /* alloca.h */
 
-/* not for actual usage, only to make preprocessors like Pro*C happy /
+/* not for actual usage, only to make preprocessors like Pro*C happy */
 
 #ifndef _ALLOCA_H
 #define _ALLOCA_H
