@@ -3,9 +3,7 @@
 #ifndef STDDEF_H
 #define STDDEF_H
 
-/* Not for actual usage, use only with precompilers like Pro*C */
-
-typedef long          ssize_t;
+typedef long         ssize_t;
 typedef unsigned long size_t;
 
 typedef long int ptrdiff_t;
@@ -15,5 +13,7 @@ typedef long int ptrdiff_t;
 #endif
 
 #define __attribute__(unused)
+
+#define inline /* older versions of Pro*C don't support inline */
 
 #endif
