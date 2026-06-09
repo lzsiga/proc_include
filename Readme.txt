@@ -1,5 +1,5 @@
 Sometimes Pro*C gets confused by actual header-files
-(especially by GCC-extensions), se we help it
+(especially by GCC-extensions), so we help it
 with innocent replacement files.
 
 Don't try to use them for any other purpose.
